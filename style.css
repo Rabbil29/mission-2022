@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    margin: 50px 15%;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.title {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+
+.focus-container {
+    width: 60%;
+    margin-top: 150px;
+
+}
+
+.border-line {
+    height: 80px;
+    width: 20px;
+    background-color: tomato;
+}
+
+.focus-container h1 {
+    font-size: 50px;
+    border-left: 5px solid rgba(23, 23, 218, 0.527);
+    padding-left: 10px;
+    font-weight: 900;
+
+}
+
+
+.part-title {
+    color: rgba(62, 117, 189, 0.959);
+    font-weight: 700;
+}
+
+.focus-container p {
+    color: rgba(0, 0, 0, 0.787);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+button {
+    background: linear-gradient(to right bottom, rgba(70, 123, 192, 0.74), rgb(46, 128, 235));
+    border: none;
+    color: white;
+    font-size: 16px;
+    width: 180px;
+    height: 50px;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: transform 0.2s ease;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.scroll {
+    font-size: small;
+}
+
+.image-container {
+    margin-top: 0;
+}
+
+.mission-2022 {
+    margin-bottom: 50px;
+}
+
+.mission-2022 .title {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mission {
+    width: 30%;
+    height: 376px;
+    border-radius: 20px;
+
+    box-sizing: border-box;
+}
+
+.mission-img {
+
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.mission-img img {
+    width: 200px;
+}
+
+.mission-details {
+    margin: 0px 16px;
+
+}
+
+.my-mission {
+    opacity: 0.8;
+    
+    margin-top: 10px;
+}
+
+#mission {
+    background-color: #EDF5F6;
+}
+
+#vision {
+    background-color: #FFEEEE;
+}
+
+#goals {
+    background-color: #FFF4D6;
+}
+
+
+.develop,
+.community {
+    margin-top: 100px;
+    display: flex;
+
+}
+
+.develop-container,
+.community-container {
+    margin-left: 70px;
+    margin-top: 150px;
+    
+}
+
+.develop-details,
+.community-details {
+    margin-top: 20px;
+
+}
+
+.develop button,
+.community button {
+    padding: 10px;
+    width: 250px;
+    margin-top: 30px;
+}
+
+.community-container {
+    margin-left: 0;
+    margin-right: 70px;
+    margin-top: 120px;
+}
+
+.my-services{
+    margin-top: 100px;
+    text-align: center; 
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.service-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.192); 
+    padding: 10px 5px;
+    transition: transform 0.2s ease;
+    border-radius: 5px;
+}
+
+.service-card h1{
+    margin-top: 15px;
+}
+
+.service-card:hover{
+    transform: scale(1.05);
+    background: linear-gradient(to right bottom, rgba(70, 123, 192, 0.74), rgb(46, 128, 235));
+    color: white;
+
+}
+
+.footer {
+    margin-top: 50px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.footer-title {
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+    font-weight: 100;
+}
+
+
+.footer .part-title {
+    color: rgb(132, 185, 255);
+    font-weight: 200;
+}
+
+.footer p{
+    opacity: 0.85;
+}
